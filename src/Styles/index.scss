@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": rgb(156, 156, 135),
+  "dark": rgb(148, 148, 70),
+  "danger": #3a3a36,
+);
+// $card-border-width: 0;
+
+$card-border-color: rgba(#000, 0.05);
+
+@import "~bootstrap/scss/bootstrap";

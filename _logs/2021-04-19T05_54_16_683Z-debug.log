@@ -1,0 +1,58 @@
+0 verbose cli [
+0 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+0 verbose cli   'C:\\Users\\Victor de flos\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+0 verbose cli   'i',
+0 verbose cli   'chokidar@3.'
+0 verbose cli ]
+1 info using npm@7.10.0
+2 info using node@v14.16.0
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Victor de flos\Desktop\ViktorZip\Project by NEW\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 0ms
+11 timing config:load:file:C:\Users\Victor de flos\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Victor de flos\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:setEnvs Completed in 0ms
+17 timing config:load Completed in 6ms
+18 timing npm:load:configload Completed in 6ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing npm:load:setupLog Completed in 2ms
+21 timing npm:load:cleanupLog Completed in 2ms
+22 timing npm:load:configScope Completed in 0ms
+23 timing npm:load:projectScope Completed in 0ms
+24 timing npm:load Completed in 13ms
+25 timing config:load:flatten Completed in 2ms
+26 timing arborist:ctor Completed in 0ms
+27 timing idealTree:init Completed in 717ms
+28 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+29 http fetch GET 200 https://registry.npmjs.org/chokidar 992ms
+30 timing idealTree Completed in 1716ms
+31 timing command:install Completed in 1726ms
+32 verbose type tag
+33 verbose stack chokidar: No matching version found for chokidar@3..
+33 verbose stack     at module.exports (C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\node_modules\npm-pick-manifest\index.js:209:23)
+33 verbose stack     at C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\node_modules\pacote\lib\registry.js:117:26
+33 verbose stack     at async Arborist.[retrieveSpecName] (C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:518:18)
+33 verbose stack     at async Promise.all (index 0)
+33 verbose stack     at async Arborist.[applyUserRequestsToNode] (C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:469:7)
+33 verbose stack     at async Arborist.buildIdealTree (C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:216:7)
+33 verbose stack     at async Promise.all (index 1)
+33 verbose stack     at async Arborist.reify (C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:134:5)
+33 verbose stack     at async Install.install (C:\Users\Victor de flos\AppData\Roaming\npm\node_modules\npm\lib\install.js:137:5)
+34 verbose cwd C:\Users\Victor de flos\Desktop\ViktorZip\Project by NEW
+35 verbose Windows_NT 10.0.21359
+36 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Victor de flos\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "i" "chokidar@3."
+37 verbose node v14.16.0
+38 verbose npm  v7.10.0
+39 error code ETARGET
+40 error notarget No matching version found for chokidar@3..
+41 error notarget In most cases you or one of your dependencies are requesting
+41 error notarget a package version that doesn't exist.
+42 verbose exit 1
