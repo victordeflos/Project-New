@@ -19,7 +19,7 @@ class MovieList extends Component {
 
     fetchMovies = () => {
         let q = queryString.parse(this.props.location.search);
-        Axios.get(`http://www.omdbapi.com/?apikey=aa9e49f&s=${q.searchText}`)
+        Axios.get(`https://www.omdbapi.com/?apikey=aa9e49f&s=${q.searchText}`)
             .then(res => {
                 console.log(res.data.Search)
                 this.setState({movies: res.data.Search})
